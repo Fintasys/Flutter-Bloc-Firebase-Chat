@@ -30,6 +30,8 @@ class StringConstant{
 
   // Chat
   static const String chat_text_input_hint = "Type your message...";
+  static const String chat_text_empty = 'Nothing to send';
+  static const String chat_image_upload_wrong_type = 'This file is not an image';
 
   // User Settings
   static const String title_user_settings = "Settings";
