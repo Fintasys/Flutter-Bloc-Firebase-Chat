@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
-import 'package:flutter_demo_chat/src/bloc/sign_in_bloc.dart';
-import 'package:flutter_demo_chat/src/services/auth_service.dart';
-import 'package:flutter_demo_chat/src/utils/color_const.dart';
-import 'package:flutter_demo_chat/src/utils/string_const.dart';
-import 'package:flutter_demo_chat/src/widgets/screen_chat_list.dart';
+import 'package:flutter_bloc_firebase_chat/src/bloc/sign_in_bloc.dart';
+import 'package:flutter_bloc_firebase_chat/src/services/auth_service.dart';
+import 'package:flutter_bloc_firebase_chat/src/utils/color_const.dart';
+import 'package:flutter_bloc_firebase_chat/src/utils/string_const.dart';
+import 'package:flutter_bloc_firebase_chat/src/widgets/screen_chat_list.dart';
 import 'package:provider/provider.dart';
 
 import '../../main.dart';

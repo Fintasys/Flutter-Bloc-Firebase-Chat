@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demo_chat/src/routing/router.dart';
-import 'package:flutter_demo_chat/src/services/auth_service.dart';
-import 'package:flutter_demo_chat/src/utils/color_const.dart';
-import 'package:flutter_demo_chat/src/utils/string_const.dart';
+import 'package:flutter_bloc_firebase_chat/src/routing/router.dart';
+import 'package:flutter_bloc_firebase_chat/src/services/auth_service.dart';
+import 'package:flutter_bloc_firebase_chat/src/utils/color_const.dart';
+import 'package:flutter_bloc_firebase_chat/src/utils/string_const.dart';
 
 import '../main.dart';
 

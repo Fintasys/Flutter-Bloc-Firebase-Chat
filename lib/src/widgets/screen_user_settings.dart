@@ -3,11 +3,11 @@ import 'dart:io';
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_demo_chat/src/bloc/user_settings_bloc.dart';
-import 'package:flutter_demo_chat/src/model/user.dart';
-import 'package:flutter_demo_chat/src/services/auth_service.dart';
-import 'package:flutter_demo_chat/src/utils/color_const.dart';
-import 'package:flutter_demo_chat/src/utils/string_const.dart';
+import 'package:flutter_bloc_firebase_chat/src/bloc/user_settings_bloc.dart';
+import 'package:flutter_bloc_firebase_chat/src/model/user.dart';
+import 'package:flutter_bloc_firebase_chat/src/services/auth_service.dart';
+import 'package:flutter_bloc_firebase_chat/src/utils/color_const.dart';
+import 'package:flutter_bloc_firebase_chat/src/utils/string_const.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:provider/provider.dart';

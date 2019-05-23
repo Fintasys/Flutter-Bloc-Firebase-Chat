@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:flutter_demo_chat/src/model/user.dart';
-import 'package:flutter_demo_chat/src/services/repository_service.dart';
+import 'package:flutter_bloc_firebase_chat/src/model/user.dart';
+import 'package:flutter_bloc_firebase_chat/src/services/repository_service.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:shared_preferences/shared_preferences.dart';

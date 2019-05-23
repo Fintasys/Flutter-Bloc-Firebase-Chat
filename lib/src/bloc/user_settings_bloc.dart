@@ -1,11 +1,11 @@
 import 'dart:io';
 
-import 'package:flutter_demo_chat/src/bloc/base_bloc.dart';
-import 'package:flutter_demo_chat/src/model/user.dart';
-import 'package:flutter_demo_chat/src/services/auth_service.dart';
-import 'package:flutter_demo_chat/src/services/repository_service.dart';
-import 'package:flutter_demo_chat/src/utils/string_const.dart';
-import 'package:flutter_demo_chat/src/widgets/helper/UiAction.dart';
+import 'package:flutter_bloc_firebase_chat/src/bloc/base_bloc.dart';
+import 'package:flutter_bloc_firebase_chat/src/model/user.dart';
+import 'package:flutter_bloc_firebase_chat/src/services/auth_service.dart';
+import 'package:flutter_bloc_firebase_chat/src/services/repository_service.dart';
+import 'package:flutter_bloc_firebase_chat/src/utils/string_const.dart';
+import 'package:flutter_bloc_firebase_chat/src/widgets/helper/UiAction.dart';
 import 'package:rxdart/rxdart.dart';
 
 import '../../main.dart';

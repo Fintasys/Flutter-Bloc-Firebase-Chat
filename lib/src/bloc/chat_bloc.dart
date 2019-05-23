@@ -2,10 +2,10 @@ import 'dart:io';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
-import 'package:flutter_demo_chat/src/bloc/base_bloc.dart';
-import 'package:flutter_demo_chat/src/model/chat_info.dart';
-import 'package:flutter_demo_chat/src/services/repository_service.dart';
-import 'package:flutter_demo_chat/src/widgets/helper/UiAction.dart';
+import 'package:flutter_bloc_firebase_chat/src/bloc/base_bloc.dart';
+import 'package:flutter_bloc_firebase_chat/src/model/chat_info.dart';
+import 'package:flutter_bloc_firebase_chat/src/services/repository_service.dart';
+import 'package:flutter_bloc_firebase_chat/src/widgets/helper/UiAction.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 

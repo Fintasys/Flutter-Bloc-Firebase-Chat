@@ -1,4 +1,4 @@
-import 'package:flutter_demo_chat/src/model/user.dart';
+import 'package:flutter_bloc_firebase_chat/src/model/user.dart';
 import 'package:rxdart/rxdart.dart';
 
 abstract class AuthService {

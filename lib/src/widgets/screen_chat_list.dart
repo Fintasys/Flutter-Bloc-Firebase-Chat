@@ -3,15 +3,15 @@ import 'dart:io';
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_demo_chat/src/bloc/chat_list_bloc.dart';
-import 'package:flutter_demo_chat/src/model/chat_info.dart';
-import 'package:flutter_demo_chat/src/model/user.dart';
-import 'package:flutter_demo_chat/src/services/auth_service.dart';
-import 'package:flutter_demo_chat/src/utils/color_const.dart';
-import 'package:flutter_demo_chat/src/utils/string_const.dart';
-import 'package:flutter_demo_chat/src/utils/util_nav.dart';
-import 'package:flutter_demo_chat/src/widgets/screen_chat.dart';
-import 'package:flutter_demo_chat/src/widgets/helper/NavBarMenuItem.dart';
+import 'package:flutter_bloc_firebase_chat/src/bloc/chat_list_bloc.dart';
+import 'package:flutter_bloc_firebase_chat/src/model/chat_info.dart';
+import 'package:flutter_bloc_firebase_chat/src/model/user.dart';
+import 'package:flutter_bloc_firebase_chat/src/services/auth_service.dart';
+import 'package:flutter_bloc_firebase_chat/src/utils/color_const.dart';
+import 'package:flutter_bloc_firebase_chat/src/utils/string_const.dart';
+import 'package:flutter_bloc_firebase_chat/src/utils/util_nav.dart';
+import 'package:flutter_bloc_firebase_chat/src/widgets/screen_chat.dart';
+import 'package:flutter_bloc_firebase_chat/src/widgets/helper/NavBarMenuItem.dart';
 import 'package:provider/provider.dart';
 
 import '../../main.dart';

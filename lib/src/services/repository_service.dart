@@ -3,8 +3,8 @@ import 'dart:io';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
-import 'package:flutter_demo_chat/src/model/chat_info.dart';
-import 'package:flutter_demo_chat/src/model/user.dart';
+import 'package:flutter_bloc_firebase_chat/src/model/chat_info.dart';
+import 'package:flutter_bloc_firebase_chat/src/model/user.dart';
 
 abstract class RepositoryService {
   Future<FirebaseUser> signInWithCredential(AuthCredential credential);

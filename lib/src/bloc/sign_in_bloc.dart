@@ -1,6 +1,6 @@
-import 'package:flutter_demo_chat/main.dart';
-import 'package:flutter_demo_chat/src/bloc/base_bloc.dart';
-import 'package:flutter_demo_chat/src/services/auth_service.dart';
+import 'package:flutter_bloc_firebase_chat/main.dart';
+import 'package:flutter_bloc_firebase_chat/src/bloc/base_bloc.dart';
+import 'package:flutter_bloc_firebase_chat/src/services/auth_service.dart';
 import 'package:rxdart/rxdart.dart';
 
 enum Status { signedOut, signedIn, error }

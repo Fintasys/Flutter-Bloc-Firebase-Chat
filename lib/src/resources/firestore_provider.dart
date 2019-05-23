@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter_demo_chat/src/model/chat_info.dart';
-import 'package:flutter_demo_chat/src/model/user.dart';
+import 'package:flutter_bloc_firebase_chat/src/model/chat_info.dart';
+import 'package:flutter_bloc_firebase_chat/src/model/user.dart';
 
 class FireStoreProvider {
   Firestore _firestore = Firestore.instance;
