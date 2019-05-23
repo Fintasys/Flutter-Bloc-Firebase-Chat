@@ -5,6 +5,7 @@ import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter_bloc_firebase_chat/src/bloc/base_bloc.dart';
 import 'package:flutter_bloc_firebase_chat/src/model/chat_info.dart';
 import 'package:flutter_bloc_firebase_chat/src/services/repository_service.dart';
+import 'package:flutter_bloc_firebase_chat/src/utils/string_const.dart';
 import 'package:flutter_bloc_firebase_chat/src/widgets/helper/UiAction.dart';
 import 'package:rxdart/rxdart.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -63,19 +64,20 @@ class ChatBloc extends BaseBloc {
   }
 
   Future uploadFile(File imageFile) async {
+    setLoading(true);
     String fileName = DateTime.now().millisecondsSinceEpoch.toString();
     StorageReference reference = FirebaseStorage.instance.ref().child(fileName);
     StorageUploadTask uploadTask = reference.putFile(imageFile);
     StorageTaskSnapshot storageTaskSnapshot = await uploadTask.onComplete;
     storageTaskSnapshot.ref.getDownloadURL().then((downloadUrl) {
       String imageUrl = downloadUrl;
-      setLoading(true);
       onSendMessage(imageUrl, 1);
+      setLoading(false);
     }, onError: (err) {
       setLoading(false);
       _uiActions.sink.add(new UiAction(
           action: ACTIONS.showToast.index,
-          message: 'This file is not an image'));
+          message: StringConstant.chat_image_upload_wrong_type));
     });
   }
 
@@ -91,7 +93,8 @@ class ChatBloc extends BaseBloc {
           .add(new UiAction(action: ACTIONS.animateListScrollController.index));
     } else {
       _uiActions.sink.add(new UiAction(
-          action: ACTIONS.showToast.index, message: 'Nothing to send'));
+          action: ACTIONS.showToast.index,
+          message: StringConstant.chat_text_empty));
     }
   }
 
