@@ -6,4 +6,6 @@ https://medium.com/flutterpub/when-firebase-meets-bloc-pattern-fb5c405597e0
 
 # Screenshots
 <img src="screenshots/Screenshot_sign_in.png" width="250">
-![SignIn Screen](/screenshots/Screenshot_sign_in.png =250px) ![Chat List Screen](/screenshots/Screenshot_chat_list.png) ![Chat Screen](/screenshots/Screenshot_chat.png) ![User Settings Screen](/screenshots/Screenshot_user_settings.png) 
+<img src="screenshots/Screenshot_chat_list.png" width="250">
+<img src="screenshots/Screenshot_chat.png" width="250">
+<img src="screenshots/Screenshot_user_settings.png" width="250">
