@@ -5,7 +5,4 @@ https://medium.com/flutter-community/building-a-chat-app-with-flutter-and-fireba
 https://medium.com/flutterpub/when-firebase-meets-bloc-pattern-fb5c405597e0
 
 # Screenshots
-<img src="screenshots/Screenshot_sign_in.png" width="250">
-<img src="screenshots/Screenshot_chat_list.png" width="250">
-<img src="screenshots/Screenshot_chat.png" width="250">
-<img src="screenshots/Screenshot_user_settings.png" width="250">
+<img src="screenshots/Screenshot_sign_in.png" width="250"><img src="screenshots/Screenshot_chat_list.png" width="250"><img src="screenshots/Screenshot_chat.png" width="250"><img src="screenshots/Screenshot_user_settings.png" width="250">
